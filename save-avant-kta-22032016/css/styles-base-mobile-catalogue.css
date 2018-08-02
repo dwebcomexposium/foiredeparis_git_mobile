@@ -1,0 +1,331 @@
+/*
+ * LESS config file for Mobile / Catalogue (and Events)
+ *
+ * Intended to be used when Catalogue and/or Events exists in a project, (07/01/2016 NEW) in addition to *-mobile.less
+ * What's in *-mobile-catalogue.less? A second icon set is loaded and used, specific to both Catalogue and Events
+ */
+/*
+
+	== Common mobile styles for catalogue
+
+*/
+.edito h1 {
+  text-transform: uppercase;
+}
+/* ----------------------------- *
+* ==Fonts & typography
+* ----------------------------- */
+/*
+	
+	== Common
+	== Second icon set for Catalogue and Events (other fonts including a first icon set should still be loaded in fonts.less)
+
+*/
+i.icon-catal:before {
+  font-family: 'icon-catal';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*
+
+	== Mobile / Catalogue and Events
+ 	== Specific Icons for Mobile Catalogue and Events templates (doesn't replace Mobile icons: it's a second one different from the latter)
+
+
+ */
+@font-face {
+  font-family: 'icon-catal';
+  src: url('fonts/comexposium-iconcatalogue/fonts/comexposium-iconcatalogue.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-catal-star-delete:before {
+  content: "\ea83";
+}
+.icon-catal-block:before {
+  content: "\ea80";
+}
+.icon-catal-grid:before {
+  content: "\ea81";
+}
+.icon-catal-list:before {
+  content: "\ea82";
+}
+.icon-catal-long-arrow-top:before {
+  content: "\ea13";
+}
+.icon-catal-long-arrow-btm:before {
+  content: "\ea20";
+}
+.icon-catal-long-arrow-left:before {
+  content: "\ea21";
+}
+.icon-catal-long-arrow-right:before {
+  content: "\ea22";
+}
+.icon-catal-calendar:before {
+  content: "\ea1c";
+}
+.icon-catal-menu:before {
+  content: "\ea1b";
+}
+.icon-catal-doc:before {
+  content: "\ea2b";
+}
+.icon-catal-externe:before {
+  content: "\ea2c";
+}
+.icon-catal-img:before {
+  content: "\ea2d";
+}
+.icon-catal-speaker:before {
+  content: "\ea2f";
+}
+.icon-catal-link:before {
+  content: "\ea30";
+}
+.icon-catal-xls:before {
+  content: "\ea31";
+}
+.icon-catal-zip:before {
+  content: "\ea32";
+}
+.icon-catal-minus:before {
+  content: "\ea0e";
+}
+.icon-catal-pause:before {
+  content: "\ea19";
+}
+.icon-catal-play:before {
+  content: "\ea1a";
+}
+.icon-catal-arrow-top:before {
+  content: "\ea00";
+}
+.icon-catal-arrow-btm:before {
+  content: "\ea02";
+}
+.icon-catal-arrow-left:before {
+  content: "\ea05";
+}
+.icon-catal-short-arrow-btm:before {
+  content: "\ea03";
+}
+.icon-catal-short-arrow-left:before {
+  content: "\ea04";
+}
+.icon-catal-short-arrow-top:before {
+  content: "\ea01";
+}
+.icon-catal-buy:before {
+  content: "\ea06";
+}
+.icon-catal-checkdisk:before {
+  content: "\ea23";
+}
+.icon-catal-check:before {
+  content: "\ea07";
+}
+.icon-catal-email:before {
+  content: "\ea08";
+}
+.icon-catal-wallet:before {
+  content: "\ea09";
+}
+.icon-catal-facebook:before {
+  content: "\ea0a";
+}
+.icon-catal-home:before {
+  content: "\ea0b";
+}
+.icon-catal-exponent:before {
+  content: "\ea0c";
+}
+.icon-catal-arrow-right:before {
+  content: "\ea0d";
+}
+.icon-catal-pdf:before {
+  content: "\ea0f";
+}
+.icon-catal-pinterest:before {
+  content: "\ea10";
+}
+.icon-catal-map:before {
+  content: "\ea11";
+}
+.icon-catal-plusdisk:before {
+  content: "\ea24";
+}
+.icon-catal-plus:before {
+  content: "\ea12";
+}
+.icon-catal-quote:before {
+  content: "\ea14";
+}
+.icon-catal-search:before {
+  content: "\ea15";
+}
+.icon-catal-short-arrow-right:before {
+  content: "\ea16";
+}
+.icon-catal-stand:before {
+  content: "\ea17";
+}
+.icon-catal-twitter:before {
+  content: "\ea18";
+}
+.icon-catal-brand:before {
+  content: "\ea29";
+}
+.icon-catal-bulb:before {
+  content: "\ea2a";
+}
+.icon-catal-certified:before {
+  content: "\ea2e";
+}
+.icon-catal-chevrons:before {
+  content: "\ea33";
+}
+.icon-catal-clock:before {
+  content: "\ea34";
+}
+.icon-catal-demo:before {
+  content: "\ea35";
+}
+.icon-catal-exhibitor:before {
+  content: "\ea36";
+}
+.icon-catal-hearth:before {
+  content: "\ea37";
+}
+.icon-catal-icons-all:before {
+  content: "\ea38";
+}
+.icon-catal-localisation:before {
+  content: "\ea39";
+}
+.icon-catal-new:before {
+  content: "\ea3a";
+}
+.icon-catal-play2:before {
+  content: "\ea3b";
+}
+.icon-catal-prime:before {
+  content: "\ea3c";
+}
+.icon-catal-product:before {
+  content: "\ea3d";
+}
+.icon-catal-promo:before {
+  content: "\ea3e";
+}
+.icon-catal-star-empty:before {
+  content: "\ea3f";
+}
+.icon-catal-star-full:before {
+  content: "\ea40";
+}
+.icon-catal-google-plus:before {
+  content: "\ea28";
+}
+.icon-catal-linkedin:before {
+  content: "\ea25";
+}
+.icon-catal-emptycart:before {
+  content: "\ea26";
+}
+.icon-catal-cross-alt:before {
+  content: "\ea27";
+}
+.icon-catal-cross:before {
+  content: "\ea1f";
+}
+.icon-catal-up:before {
+  content: "\ea1d";
+}
+.icon-catal-down:before {
+  content: "\ea1e";
+}
+/*
+
+	== Mobile
+	== Typography:
+	   - list
+	   - paragraph
+	   - title
+	   - blockquote
+	
+*/
+/*
+ * Title
+ */
+h1,
+.h1-like {
+  padding-bottom: .25em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #e3e9ea;
+}
+h2,
+.h2-like {
+  padding-bottom: .15em;
+  border-bottom: 1px solid #e3e9ea;
+}
+h4,
+.h4-like {
+  margin: 1em 0;
+}
+h5,
+.h5-like,
+h6,
+.h6-like {
+  margin: 0.5em 0;
+}
+/* Block title @sidebar */
+.block-title {
+  padding-bottom: .25em;
+  margin-bottom: 0.5em;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-bottom: 4px solid #0c8192;
+  color: #474d4e;
+}
+.block-title:not(:first-child) {
+  margin-top: 1em;
+}
+[class*="block-"] + .block-title {
+  margin-top: 4em;
+}
+/* Main title followed by a link */
+.main-title-with-link {
+  border-bottom: 1px solid #e3e9ea;
+  margin-bottom: 1.5em;
+}
+.main-title-with-link::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.main-title-with-link > .main-title {
+  float: left;
+  border-bottom: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00525e;
+}
+.main-title-with-link [class^="link-"],
+.main-title-with-link [class^="btn-"] {
+  float: right;
+}
+.main-title-with-link [class^="link-"] {
+  margin-top: .25em;
+}
