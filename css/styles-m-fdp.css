@@ -2164,6 +2164,7 @@ header.site-banner .sb-menu-trigger.is-open i { width: 23px; height: 23px; }
 .mod-catal .catal-ed-main { padding: 95px 0 .4rem;  }
 
 
+
 .mod-catal .catal-ed-main .catal-ed-main-infos { margin: 37px 3px 0;  }
 .mod-catal .catal-ed-main .catal-ed-main-infos p { margin: 0; font-size: 12px; line-height: 1.67;  }
 .mod-catal .catal-ed-main .catal-ed-main-infos .catal-ed-main-url { padding-top: 0px; }
@@ -2429,6 +2430,11 @@ body.brand-details #zone4 ul { padding: 98px 0 0; }
 body.exhibitor-details .mod-catal .catal-ex-item-buttons-small { display: block; }
 
 body.body-mobile.catalogue.produit.fiche.body-corpo.page-details.product-details .mod-catal.catal-pr-details .edito .inside { width: 100%; margin: 0; }
+
+
+
+/*div catalogue*/
+body.fiche .mod-catal h1, body.product-details .edito.mod-catal h1 { margin-top: 65px!important; }
 
 
 
