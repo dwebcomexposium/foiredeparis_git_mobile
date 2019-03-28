@@ -152,7 +152,59 @@
 	}
 
 	$doc.ready(function() {
+		if ( $('.catal-prd-title').length ) {
+			$('.catal-prd-title').append('<p class="title-actions" />')
+
+			$('.catal-prd-title')
+				.find('> a')
+				.detach()
+				.appendTo('.catal-prd-title .title-actions')
+		}
+
 		$win.on('load', function(){
+			if ( $('.catal-ed-main-desc').length ) {
+				$('.catal-ed-main-desc').append('<a href="#" class="btn-expand">Lire la suite</a>')
+			}
+
+			if ( $('.catal-prd-main-desc').length ) {
+				$('.catal-prd-main-desc').append('<a href="#" class="btn-expand">Lire la suite</a>')
+			}
+
+			if ( $('.catal-ex-item-buttons-small').length ) {
+				$('.catal-ex-item-buttons-small').each(function() {
+					var $this = $(this)
+
+					$this
+						.find('.btn-primary')
+						.clone()
+						.insertAfter( $this.parent().find('.catal-ex-item-stand') )
+
+
+				})
+			}
+
+			if ( $('body.marque .catal-ex-item-buttons-small').length ) {
+				$('.catal-ex-item-buttons-small').each(function() {
+					var $this = $(this)
+
+					$this
+						.find('.btn-primary')
+						.clone()
+						.insertAfter( $this.parent().find('.msl-brand-ex') )
+
+
+				})
+			}
+
+			
+
+			$('.btn-expand').on('click', function(e) {
+				e.preventDefault();
+				
+				$(this).parent().toggleClass('expanded')
+			})
+
+
 			$('.event-days').each(function() {
 				eventDays($(this));
 			});
