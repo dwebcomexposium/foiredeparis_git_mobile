@@ -1641,7 +1641,7 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 
 .mod-catal .catal-ex-item-img {width: 120px; }
 .mod-catal .catal-ex-item-buttons-small { border-left: 0; }
-.liste-produit a.btn {text-decoration: underline; /*text-transform: none;*/ padding-top: 20px; letter-spacing: 2px; text-align: center; width: 100%; font-size: 14px; }
+
 
 /*Client area*/
 
@@ -1908,12 +1908,7 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 .catal-produit .catal-ex-item-cat i,
 .catal-produit .catal-ex-item-stand-list i { display: none; }
 
-/* ------------------------------------------------------------ *\
-	Liste Produit
-\* ------------------------------------------------------------ */
 
-.liste-produit a.btn { position: relative; display: inline-block; width: auto; left: 50vw; padding: 12px 20px 9px 18px; border: 1px solid #e82451; border-radius: 39px; -ms-transform: translateX(-50%); transform: translateX(-50%); font-size: 13px; font-weight: 700; letter-spacing: 0.1em; color: #ea1e4e; text-decoration: none; }
-.liste-produit a.btn:before { content: ''; position: relative; display: inline-block; width: 22px; height: 12px; top: -2px; margin-right: 9px; vertical-align: middle; background-image: url(images/ico-arrow-right.png); background-size: 100% 100%; }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ *\
 	All In One Page
@@ -2248,28 +2243,28 @@ body.catalogue #zone4 ul { padding: 160px 0 0; }
 
 
 body.produit .edito.mod-catal h1 { padding: 0 30px; }
-body.produit .catal-results { margin-top: 17px !important; padding: 10px 29px 36px !important; }
+body.produit .catal-results, .liste-produit .catal-results { margin-top: 17px !important; padding: 10px 29px 36px !important; }
 
-body.produit .mod-catal { border-bottom: 1px solid #f7f7f8;  }
-body.produit .mod-catal.catal-produit { border: none; }
+body.produit .mod-catal, .liste-produit .mod-catal { border-bottom: 1px solid #f7f7f8;  }
+body.produit .mod-catal.catal-produit, .liste-produit .mod-catal.catal-produit { border: none; }
 body.produit .mod-catal.pagination { border: none; }
-body.produit .mod-catal .catal-ex-item { padding: 0 0 24px 10px; }
-body.produit .mod-catal .catal-ex-item + .catal-ex-item  { margin-top: 0; padding: 29px 15px 24px 10px; }
+body.produit .mod-catal .catal-ex-item, .liste-produit .mod-catal .catal-ex-item { padding: 0 0 24px 10px; }
+body.produit .mod-catal .catal-ex-item + .catal-ex-item, .liste-produit .mod-catal .catal-ex-item + .catal-ex-item  { margin-top: 0; padding: 29px 15px 24px 10px; }
 
-body.produit .mod-catal .catal-ex-item-img { flex: 0 0 115px; border: none; display: block; padding: 0; height: initial; margin-right: 10px; }
-body.produit .mod-catal .catal-ex-item-img img { width: 100%; }
+body.produit .mod-catal .catal-ex-item-img, .liste-produit .mod-catal .catal-ex-item-img { flex: 0 0 115px; border: none; display: block; padding: 0; height: initial; margin-right: 10px; }
+body.produit .mod-catal .catal-ex-item-img img, .liste-produit .mod-catal .catal-ex-item-img img { width: 100%; }
 
-body.produit .mod-catal .catal-ex-item-content { padding: 30px 10px 0 0;  }
-body.produit .mod-catal .catal-ex-item-content .catal-ex-item-cat { flex-direction: row; position: absolute; top: 0; left: 0; width: 100%;  }
-body.produit .mod-catal .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconmore button { font-size: 11px; color: #cacaca; margin: 0 0 0 10px; letter-spacing: 0.05em; }
-body.produit .mod-catal .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconitem { color: #2a2a2a; font-size: 11px; }
-body.produit .mod-catal .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconitem:before { width: 19px; height: 19px; -webkit-background-size: 100% 100%; background-size: 100% 100%; margin-right: -1px; }
-body.produit .mod-catal .catal-ex-item-content .catal-ex-item-title { font-size: 19px; line-height: 1.16; margin-bottom: 0; }
-body.produit .mod-catal .catal-ex-item-content .catal-ex-item-stand-list { padding-top: 7px; }
-body.produit .mod-catal .catal-ex-item-content .catal-ex-item-stand-item:before { background-image: url(images/ico-pin.png); -webkit-background-size: 100% 100%; background-size: 100% 100%; margin-right: 1px; }
-body.produit .mod-catal .catal-ex-item-stand-list li + li { margin-left: 6px; padding-left: 18px; }
-body.produit .mod-catal .catal-ex-item-stand + .btn-def { margin-top: 0; }
-body.produit .mod-catal .btn-def { margin-top: 23px !important; }
+body.produit .mod-catal .catal-ex-item-content, .liste-produit .mod-catal .catal-ex-item-content { padding: 30px 10px 0 0;  }
+body.produit .mod-catal .catal-ex-item-content .catal-ex-item-cat, .liste-produit .mod-catal .catal-ex-item-content .catal-ex-item-cat { flex-direction: row; position: absolute; top: 0; left: 0; width: 100%;  }
+body.produit .mod-catal .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconmore button, .liste-produit .mod-catal .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconmore button { font-size: 11px; color: #cacaca; margin: 0 0 0 10px; letter-spacing: 0.05em; }
+body.produit .mod-catal .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconitem, .liste-produit .mod-catal .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconitem { color: #2a2a2a; font-size: 11px; }
+body.produit .mod-catal .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconitem:before, .liste-produit .mod-catal .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconitem:before { width: 19px; height: 19px; -webkit-background-size: 100% 100%; background-size: 100% 100%; margin-right: -1px; }
+body.produit .mod-catal .catal-ex-item-content .catal-ex-item-title, .liste-produit .mod-catal .catal-ex-item-content .catal-ex-item-title { font-size: 19px; line-height: 1.16; margin-bottom: 0; }
+body.produit .mod-catal .catal-ex-item-content .catal-ex-item-stand-list, .liste-produit .mod-catal .catal-ex-item-content .catal-ex-item-stand-list { padding-top: 7px; }
+body.produit .mod-catal .catal-ex-item-content .catal-ex-item-stand-item:before, .liste-produit .mod-catal .catal-ex-item-content .catal-ex-item-stand-item:before { background-image: url(images/ico-pin.png); -webkit-background-size: 100% 100%; background-size: 100% 100%; margin-right: 1px; }
+body.produit .mod-catal .catal-ex-item-stand-list li + li, .liste-produit .mod-catal .catal-ex-item-stand-list li + li { margin-left: 6px; padding-left: 18px; }
+body.produit .mod-catal .catal-ex-item-stand + .btn-def, .liste-produit .mod-catal .catal-ex-item-stand + .btn-def { margin-top: 0; }
+body.produit .mod-catal .btn-def, .liste-produit .mod-catal .btn-def { margin-top: 23px !important; }
 
 
 /* ------------------------------------------------------------ *\
@@ -2487,3 +2482,17 @@ body.fiche .mod-catal h1, body.product-details .edito.mod-catal h1 { margin-top:
 
 	.site-footer .socials span { font-size: 13px; }
 }
+
+/* ------------------------------------------------------------ *\
+	Liste Produit
+\* ------------------------------------------------------------ */
+.liste-produit {margin-top: 70px; }
+
+.liste-produit a.btn { text-decoration: underline; /*text-transform: none;*/ padding-top: 20px; letter-spacing: 2px; text-align: center; width: 100%; position: relative; display: inline-block; width: auto; left: 50vw; padding: 12px 20px 9px 18px; border: 1px solid #e82451; border-radius: 39px; -ms-transform: translateX(-50%); transform: translateX(-50%); font-size: 13px; font-weight: 700; letter-spacing: 0.1em; color: #ea1e4e; text-decoration: none; margin-top: 25px; }
+.liste-produit a.btn:before { content: ''; position: relative; display: inline-block; width: 22px; height: 12px; top: -2px; margin-right: 9px; vertical-align: middle; background-image: url(images/ico-arrow-right.png); background-size: 100% 100%; }
+
+.liste-produit .mod-catal .catal-ex-item-buttons-small .btn-primary {display: none; }
+
+
+/*.front .mod-catal .catal-ex-item-content .btn-primary { display: none; }*/
+
