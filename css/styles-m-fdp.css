@@ -730,7 +730,7 @@ h6,
 .counter a { position: relative; display: block; overflow: visible; padding-left: 50px; font-size: 11px; line-height: 1; letter-spacing: 0.1em; color: #373737; text-decoration: none; text-transform: uppercase; text-align: left; }
 .counter span { position: absolute; width: 38px; height: 38px; top: -9px; left: 0; padding: 0; border-radius: 50%; font-size: 11px; font-weight: 700; line-height: 38px; color: #ea1e4e; text-align: center; background: #f9e4e9; }
 
-.counter .orange { color: #72a143; background: #e7fbf2; }
+.counter .orange { color: #ffb300; background: #fffbf1; }
 
 /* ------------------------------------------------------------ *\
 	Nav Secondary
@@ -1482,21 +1482,21 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 	FDA
 \* ------------------------------------------------------------ */
 
-.rub-fda .logo { display: inline-block; width: 89px; height: 82px; vertical-align: middle; background: url(images/logo-foiredeparis-hsm@2x.png) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4004px; margin-top: 0; 
+.rub-fda .logo { display: inline-block; width: 124px; height: 62px; vertical-align: middle; background: url(images/logo-fda@2x.png) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4004px; margin-top: 0; 
 	background-size: 100% 100%; 
 }
 
 .rub-fda .tpsfort .gla-item-content { background: #e4f9d5; }
-.rub-fda .site-banner, .rub-fda .article-wrapper ul li:before, .rub-fda .article-wrapper .article-title .at-content .at-theme, .rub-fda .article-wrapper .focus1 a, .rub-fda .article-wrapper .focus2 a, .rub-fda .article-wrapper h2:before, .rub-fda .article-wrapper h2:after, .rub-fda .main-navigation, .rub-fda .main-navigation a, .rub-fda .main-navigation li, .rub-fda .main-navigation .mn-menu, .rub-fda .main-navigation .mn-menu-line, .rub-fda .list-buttons li:first-child a, .rub-fda .article_list .list-articles .gla-item-tag, .rub-fda .edito .block-title:before, .rub-fda .edito .block-title:after { background: #72a143; }
-.rub-fda .article-wrapper h2, .rub-fda .article-wrapper .style4 a, .rub-fda .article-wrapper .focus2 a, .rub-fda .parcours .gla-item-title, .rub-fda .list-buttons li:last-child a, .rub-fda .edito .block-title, .rub-fda .lemag .gla-btn-read-more { color: #72a143;  }
-.rub-fda .list-buttons li:last-child a, .rub-fda .list-articles.master + .list-buttons li:first-child a { border: 1px solid #72a143;  } 
+.rub-fda .site-banner, .rub-fda .article-wrapper ul li:before, .rub-fda .article-wrapper .article-title .at-content .at-theme, .rub-fda .article-wrapper .focus1 a, .rub-fda .article-wrapper .focus2 a, .rub-fda .article-wrapper h2:before, .rub-fda .article-wrapper h2:after, .rub-fda .main-navigation, .rub-fda .main-navigation a, .rub-fda .main-navigation li, .rub-fda .main-navigation .mn-menu, .rub-fda .main-navigation .mn-menu-line, .rub-fda .list-buttons li:first-child a, .rub-fda .article_list .list-articles .gla-item-tag, .rub-fda .edito .block-title:before, .rub-fda .edito .block-title:after { background: #ffb300; }
+.rub-fda .article-wrapper h2, .rub-fda .article-wrapper .style4 a, .rub-fda .article-wrapper .focus2 a, .rub-fda .parcours .gla-item-title, .rub-fda .list-buttons li:last-child a, .rub-fda .edito .block-title, .rub-fda .lemag .gla-btn-read-more { color: #ffb300;  }
+.rub-fda .list-buttons li:last-child a, .rub-fda .list-articles.master + .list-buttons li:first-child a { border: 1px solid #ffb300;  } 
 
 
-.rub-fda .lemag .gla-btn-read-more:before { background: url(images/green-arrow.png) no-repeat 0 0; 
+.rub-fda .lemag .gla-btn-read-more:before { background: url(images/yellow-arrow.png) no-repeat 0 0; 
 	-webkit-background-size: 100% 100%; 
 	        background-size: 100% 100%; 
 }
-.rub-fda .list-buttons li:last-child a:before { content: ''; position: absolute; width: 39px; height: 32px; top: 50%; right: 23px; margin-top: -16px; background: url(images/ico-newspaper-green.png) no-repeat 0 0; 
+.rub-fda .list-buttons li:last-child a:before { content: ''; position: absolute; width: 39px; height: 32px; top: 50%; right: 23px; margin-top: -16px; background: url(images/ico-newspaper-yellow.png) no-repeat 0 0; 
 	background-size: 100% 100%; 
 }
 
@@ -1684,7 +1684,7 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 
 /*  Modifier: Link Orange */
 
-.link--orange a { background: #72a143; }
+.link--orange a { background: #ffb300; }
 
 /*  Modifier: Link Black */
 
@@ -1698,7 +1698,7 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 \* ------------------------------------------------------------ */
 
 .bar-secondary { padding: 6px 7px; margin-top: 22px; background: #05ac6b; }
-.rub-fda .bar-secondary {  background: #5c8236; }
+.rub-fda .bar-secondary {  background: #eaa400; }
 
 /* ------------------------------------------------------------ *\
 	List Links
@@ -1746,7 +1746,7 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 .quicklinks.visit { padding: 3px 10px 8px; }
 
 .quicklinks.visit .block-title { font-size: 15px; line-height: 1; color: #ea1e4e; }
-.rub-fda .quicklinks.visit .block-title {color: #72a143; }
+.rub-fda .quicklinks.visit .block-title {color: #ffb300; }
 
 .quicklinks.visit .ql-item a { font-size: 10px; line-height: 1.1; font-weight: 500; }
 
@@ -1799,7 +1799,7 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 .list-links-alt small { position: relative; display: inline-block; top: -2px; vertical-align: middle; font-size: 11px; letter-spacing: 0.05em; }
 
 .list-links-alt .list--red a { background: #ea1e4e; }
-.list-links-alt .list--orange a { background: #72a143; }
+.list-links-alt .list--orange a { background: #ffb300; }
 
 /* ------------------------------------------------------------ *\
 	List Footer Links
@@ -1925,7 +1925,7 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 
 /*div*/
 #cxpmClientAccountWidget .widget-icon > span.number  { background-color: #fff!important; color: #ea1e4e!important; font-size: 11px!important }
-.rub-fda #cxpmClientAccountWidget .widget-icon > span.number  { color: #72a143!important;  }
+.rub-fda #cxpmClientAccountWidget .widget-icon > span.number  { color: #ffb300!important;  }
 
 #cxpmClientAccountWidget .icon-shopping_basket:before, span.cap-icon-user-circle-o, .article_list .list-articles .gla-item-desc, .lemag .link-home { display: none; }
 .linkid196961, .lemag .social-sharing {display: none!important;}
@@ -1995,11 +1995,20 @@ header.site-banner .sb-menu-trigger.is-open i { width: 23px; height: 23px; }
 	header.site-banner .logo { width: 80px; height: 80px; margin-right: 5px; }
 	header.site-banner .bar-secondary .list-links a { font-size: 10px; }
 
-
-
-
 }
 
+
+.rub-fda header.site-banner .logo { width: 124px; height: 62px; margin-right: 16px; }
+
+@media(max-width: 374px) {
+	.rub-fda header.site-banner .logo { width: 124px; height: 62px;  margin-right: 5px; }
+}
+
+
+.rub-fda header.site-banner .address p { font-size: 10px; float: left; }
+.rub-fda .date { padding-top: 0; }
+.rub-fda header.site-banner .date { font-size: 20px; }
+.rub-fda .address { padding: 2px 0 10px 10px; }
 
 /* ------------------------------------------------------------ *\
 	Breadcrums
