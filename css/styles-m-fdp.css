@@ -1482,7 +1482,7 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 	FDA
 \* ------------------------------------------------------------ */
 
-.rub-fda .logo { display: inline-block; width: 124px; height: 51px; vertical-align: middle; background: url(images/fda-logo-w@2x.png) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4004px; margin-top: 0; 
+.rub-fda .logo { display: inline-block; width: 179px; height: 122px; vertical-align: middle; background: url(images/logo-foire-automne.svg) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4004px; margin-top: 0; 
 	background-size: 100% 100%; 
 }
 
@@ -1998,10 +1998,15 @@ header.site-banner .sb-menu-trigger.is-open i { width: 23px; height: 23px; }
 }
 
 
-.rub-fda header.site-banner .logo { width: 124px; height: 62px; margin-right: 16px; }
+.rub-fda header.site-banner .logo { width: 117px;
+    height: 80px;
+    margin-right: 16px;
+    margin-top: -12px; }
 
 @media(max-width: 374px) {
-	.rub-fda header.site-banner .logo { width: 124px; height: 62px;  margin-right: 5px; }
+	width: 117px;
+    height: 80px;
+    margin-right: 10px;
 }
 
 
