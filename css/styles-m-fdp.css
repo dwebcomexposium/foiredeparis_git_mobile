@@ -1482,7 +1482,7 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 	FDA
 \* ------------------------------------------------------------ */
 
-.rub-fda .logo { display: inline-block; width: 179px; height: 122px; vertical-align: middle; background: url(images/logo-foire-automne.svg) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4004px; margin-top: 0; 
+.rub-fda .logo { display: inline-block; width: 322px; height: 129px; vertical-align: middle; background: url(images/logo-foire-automne-fdp.svg) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4004px; margin-top: 0; 
 	background-size: 100% 100%; 
 }
 
@@ -1998,16 +1998,12 @@ header.site-banner .sb-menu-trigger.is-open i { width: 23px; height: 23px; }
 }
 
 
-.rub-fda header.site-banner .logo { width: 117px;
-    height: 80px;
-    margin-right: 16px;
-    margin-top: -12px; }
 
-@media(max-width: 374px) {
+/*@media(max-width: 374px) {
 	width: 117px;
     height: 80px;
     margin-right: 10px;
-}
+}*/
 
 
 .rub-fda header.site-banner .address p { font-size: 10px; float: left; }
@@ -2508,5 +2504,15 @@ body.fiche .mod-catal h1, body.product-details .edito.mod-catal h1 { margin-top:
 .liste-produit .mod-catal .catal-ex-item-buttons-small .btn-primary {display: none; }
 
 
-/*.front .mod-catal .catal-ex-item-content .btn-primary { display: none; }*/
+/* évolution lepine*/
+.rub-fda header.site-banner .logo { width: 280px; height: 112px; margin-right: 16px; margin-top: 0; margin-bottom: 10px; }
+.rub-fda header.site-banner .date { clear: both; }
+.rub-fda .address { padding: 2px 0 10px 0;  }
+.rub-fda header.site-banner .date {font-size: 32px; }
+.rub-fda header.site-banner .address p {font-size: 12px; margin-top: 5px; }
 
+@media(max-width: 374px){
+	.rub-fda header.site-banner .logo { width: 255px; height: 102px;}
+	.rub-fda header.site-banner .date {font-size: 28px; }
+
+}
