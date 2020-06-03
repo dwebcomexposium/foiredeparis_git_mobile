@@ -1698,7 +1698,7 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 \* ------------------------------------------------------------ */
 
 .bar-secondary { padding: 6px 7px; margin-top: 22px; background: #05ac6b; }
-.rub-fda .bar-secondary {  background: #eaa400; }
+.rub-fda .bar-secondary {  background: #f38a02; }
 
 /* ------------------------------------------------------------ *\
 	List Links
@@ -1989,7 +1989,7 @@ header.site-banner .sb-menu-trigger.is-open i { width: 23px; height: 23px; }
 
 .is-stuck.site-banner~[id=main] { margin-top: 0px; }
 
-@media(max-width: 374px){
+@media (max-width: 374px){
 	header.site-banner .link a { font-size: 10px; padding: 2px 3px 0; }
 	header.site-banner .header-inner { padding: 0 10px; }
 	header.site-banner .logo { width: 80px; height: 80px; margin-right: 5px; }
@@ -1999,7 +1999,7 @@ header.site-banner .sb-menu-trigger.is-open i { width: 23px; height: 23px; }
 
 
 
-/*@media(max-width: 374px) {
+/*@media (max-width: 374px) {
 	width: 117px;
     height: 80px;
     margin-right: 10px;
@@ -2288,7 +2288,7 @@ body.produit .mod-catal .btn-def, .liste-produit .mod-catal .btn-def { margin-to
 .list-buttons li:last-child a { width: 326px; font-size: 20px; font-weight: 500; letter-spacing: 0.05em; padding: 10px 100px 10px 10px; }
 .list-buttons li:last-child a:before { width: 45px; height: 37px; margin-top: -20px; right: 29px; }
 
-@media(max-width: 374px){
+@media (max-width: 374px){
 	.list-buttons li:first-child a { width: 248px; padding: 10px 10px 10px 80px; }
 	.list-buttons li:last-child a { width: 302px; padding: 10px 91px 10px 10px; }
 }
@@ -2370,7 +2370,7 @@ body.product-details .mod-catal { border: none; }
 body.product-details .pagination { display: none; }
 body.product-details #zone4 ul { padding: 82px 0 0; }
 
-@media(max-width: 374px){
+@media (max-width: 374px){
 	body.product-details .mod-catal .catal-prd-main .catal-prd-main-content .catal-prd-stand .catal-prd-title { font-size: 10px; }
 
 	#infos .catal-prd-group-content .catal-prd-infos-group .catal-prd-infos-type-list { padding: 0; margin-right: 0; }
@@ -2425,7 +2425,7 @@ body.brand-details .mod-catal .catal-prd-main .catal-prd-main-brand .catal-prd-t
 body.brand-details .pagination { display: none; }
 body.brand-details #zone4 ul { padding: 98px 0 0; }
 
-@media(max-width: 374px){
+@media (max-width: 374px){
 	body.brand-details .mod-catal .catal-prd-main .catal-prd-main-brand span a { margin: 0 4px; }
 }
 
@@ -2486,7 +2486,7 @@ body.fiche .mod-catal h1, body.product-details .edito.mod-catal h1 { margin-top:
 .site-footer .lang-switcher .ls-lang-list li + li:after { width: 5px; height: 5px; right: -18px; }
 
 
-@media(max-width: 374px){
+@media (max-width: 374px){
 	.site-footer .ql-item:nth-child(1) a { width: 126px; }
 	.site-footer .ql-item:nth-child(2) a { width: 139px; height: 42px; }	
 
@@ -2505,14 +2505,17 @@ body.fiche .mod-catal h1, body.product-details .edito.mod-catal h1 { margin-top:
 
 
 /* évolution lepine*/
+
+.rub-fda .global-wrapper .wrapper { position: relative; }
+.breadcrumb-nav { padding: 5px; }
+.social-sharing { top: 10px; }
 .rub-fda header.site-banner .logo { width: 280px; height: 112px; margin-right: 16px; margin-top: 0; margin-bottom: 10px; }
 .rub-fda header.site-banner .date { clear: both; }
 .rub-fda .address { padding: 2px 0 10px 0;  }
 .rub-fda header.site-banner .date {font-size: 32px; }
 .rub-fda header.site-banner .address p {font-size: 12px; margin-top: 5px; }
 
-@media(max-width: 374px){
+@media (max-width: 374px){
 	.rub-fda header.site-banner .logo { width: 255px; height: 102px;}
 	.rub-fda header.site-banner .date {font-size: 28px; }
-
 }
