@@ -12,7 +12,7 @@
 		$('link[rel="alternate"][hreflang]').each(function () {
 			const lang = $(this).attr('hreflang');
 			const url = $(this).attr('href');
-			const link = switcher.find(`li.ls-lang-${lang} > a`).attr('href', url);
+			const link = switcher.find(`li.ls-lang-${lang} > a`).attr('href', url);	
 		});
 	}
 
@@ -28,9 +28,24 @@
 			$_this.find('.js-toggle-trigger').trigger('click');
 		});
 
-		// update lang switcher url when title change for comexposium connect 2
-		$('head title').on('DOMSubtreeModified', setTimeout(function () { updateLangSwitcher($_this) }, 500));
-		updateLangSwitcher($_this)
+		 // update lang switcher url when title change for comexposium connect 2
+      let target = document.querySelector("title");
+      let observer = new MutationObserver(function (mutations) {
+        mutations.forEach(function (mutation) {
+          setTimeout(function () {
+            updateLangSwitcher($_this);
+          }, 500);
+        });
+      });
+
+      let config = {
+        childList: true,
+      };
+
+      observer.observe(target, config);
+      setTimeout(function () {
+        updateLangSwitcher($_this);
+      }, 500);
 	})
 	.toggleSlide();
 
