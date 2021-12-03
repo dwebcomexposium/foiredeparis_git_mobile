@@ -437,7 +437,7 @@ h6,
 	-ms-transform: translate(-50%, -50%); 
 	    transform: translate(-50%, -50%); 
 }
-.list-articles.full .la-item img { display: none; }
+.list-articles.full .la-item img { height: 211px; width: 100%;}
 .list-articles.full .la-item-content { position: static; height: 0; background: none; }
 .list-articles.full .la-item-content:after { content: ''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; background: url(images/slider-shadow.png) no-repeat 0 0; 
 	background-size: 100% 100%; 
