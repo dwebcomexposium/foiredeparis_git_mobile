@@ -86,3 +86,7 @@ display:none;
 .article-content table.table4 {
     display: block !important;
 }
+
+header.site-banner .sb-menu-trigger {
+    top: 15px;
+}
