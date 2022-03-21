@@ -90,3 +90,9 @@ display:none;
 header.site-banner .sb-menu-trigger {
     top: 15px;
 }
+
+.social-sharing {
+    top: 96px;
+    float: right;
+    right: 0;
+}
