@@ -96,3 +96,9 @@ header.site-banner .sb-menu-trigger {
     float: right;
     right: 0;
 }
+i.aulieu {
+    right: 0;
+    left: 136%;
+    width: max-content;
+    text-transform: initial;
+}
