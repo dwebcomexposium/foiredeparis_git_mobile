@@ -109,3 +109,7 @@ i.aulieu {
 span.event-days {
     display: none;
 }
+
+.rub-fda .logo {
+    background: url(images/logo-foire-automne-lepine2021.png) no-repeat 0 0;
+}
