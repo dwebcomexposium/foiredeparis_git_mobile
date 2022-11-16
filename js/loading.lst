@@ -5,7 +5,6 @@ vendor/masonry/dist/masonry.pkgd.js
 vendor/hammerjs/hammer.min.js
 vendor/imagesloaded/imagesloaded.pkgd.js
 vendor/noty/js/noty/packaged/jquery.noty.packaged.js
-cookies-warning.min.js
 handlebars.min.js
 hinclude.js
 jquery.cookie.js
