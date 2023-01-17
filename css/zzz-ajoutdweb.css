@@ -114,3 +114,15 @@ span.event-days {
     background: url(images/logo-foire-automne-lepine2021.png) no-repeat 0 0;
     background-size: 93%;
 }
+.bar-secondary {
+    background: white;
+}
+.bar-secondary .list-links span {
+    background: #ea1e4e;
+}
+.bar-secondary a {
+    color: #ea1e4e;
+}
+header.site-banner .bar-secondary .list-links span {
+    color: white;
+}
