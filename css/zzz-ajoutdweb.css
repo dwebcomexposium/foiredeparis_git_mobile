@@ -106,10 +106,6 @@ i.aulieu {
 .content47522.pro .sticky-footer a {
     display: none;
 }
-span.event-days {
-    display: none;
-}
-
 .rub-fda .logo {
     background: url(images/logo-foire-automne-lepine2021.png) no-repeat 0 0;
     background-size: 93%;
@@ -125,4 +121,7 @@ span.event-days {
 }
 header.site-banner .bar-secondary .list-links span {
     color: white;
+}
+.links {
+    margin-top: 0;
 }
