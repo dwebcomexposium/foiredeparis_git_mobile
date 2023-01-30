@@ -125,3 +125,9 @@ header.site-banner .bar-secondary .list-links span {
 .links {
     margin-top: 0;
 }
+.tpsfort .block-title:after {
+    content: 'Foire de Paris';
+}
+.pg-item-title {
+    display: none;
+}
