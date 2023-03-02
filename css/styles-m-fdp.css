@@ -579,7 +579,7 @@ h6,
 	Section Image
 \* ------------------------------------------------------------ */
 
-.section-image { padding-bottom: 20px; text-align: center; }
+.section-image { padding: 30px 0 50px 0; text-align: center;  }
 
 .section-image img { width: 100%; height: auto; }
 .section-image span { display: block; padding-bottom: 5px; opacity: .5; font-size: 12px; color: #373737; }
@@ -2154,7 +2154,7 @@ header.site-banner .sb-menu-trigger.is-open i { width: 23px; height: 23px; }
 	Main
 \* ------------------------------------------------------------ */
 
-.wrapper .main-title-with-link { border: none; padding-top: 20px; margin-bottom: 39px; }
+.wrapper .main-title-with-link { border: none; padding-top: 20px; margin-bottom: 15px; }
 .wrapper .main-title-with-link h1 { font-size: 14px; font-weight: 300; color: #9b9b9b; }
 
 
@@ -2570,6 +2570,26 @@ header .links  { display: none; }
 #zone2 .partner .pg-item-group .pg-item-title {display: none; }
 #zone2 .partner .pg-item-group .pg-item-illust {align-items: center; display: flex; justify-content: center; margin: 0; }
 
-
 .edito { padding: 0 20px; }
 .edito h2 { color: #373737; border: 0; text-align: center; font-size: 15px; margin-top: 40px; }
+
+
+/*.bar-secondary {
+    background: white;
+}
+.bar-secondary .list-links span {
+    background: #ea1e4e;
+}
+.bar-secondary a {
+    color: #ea1e4e;
+}
+header.site-banner .bar-secondary .list-links span {
+    color: white;
+}
+
+i.aulieu {
+    right: 0;
+    left: 136%;
+    width: max-content;
+    text-transform: initial;
+}*/
