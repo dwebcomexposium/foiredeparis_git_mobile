@@ -537,11 +537,11 @@ h6,
 .tpsfort { padding-top: 1px; }
 
 .tpsfort .main-title-with-link { position: relative; margin-bottom: -7px; border: 0; text-align: center; }
-.tpsfort .main-title-with-link:after { content: ''; position: absolute; width: 100%; height: 1px; top: 50%; left: 0; background: url(images/dash.png) repeat-x 0 0; }
+.tpsfort .main-title-with-link:after { content: ''; position: absolute; width: 100%; height: 1px; top: 50%; left: 0; /*background: url(images/dash.png) repeat-x 0 0; */}
 
 .tpsfort .block-title { position: relative; display: inline-block; padding: 0; margin: 0; border: 0; font-size: 28px; font-weight: 700; letter-spacing: 0.1em; color: #373737; text-align: center; text-transform: uppercase; padding: 0 10px; background: #fff; z-index: 5; }
 .tpsfort .caroufredsel_wrapper { margin: 20px 0 0!important; }
-.tpsfort .block-title:after { content: 'Foire de Paris 2016'; display: block; margin-top: -9px; font-size: 10px; font-weight: 300; letter-spacing: 0.25em; color: #373737; }
+.tpsfort .block-title:after { content: 'Foire de Paris'; display: block; margin-top: -9px; font-size: 10px; font-weight: 300; letter-spacing: 0.25em; color: #373737; }
 
 .tpsfort .gla-item { position: relative; width: 100%; margin: 0; 
 	box-shadow: none; 
@@ -1666,8 +1666,8 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 	Site Banner
 \* ------------------------------------------------------------ */
 
-.site-banner .sb-menu-trigger { top: 40px; }
-.site-banner .global-search-form { bottom: 58px; }
+.site-banner .sb-menu-trigger { top: 20px!important; }
+.site-banner .global-search-form { bottom: 55px!important; }
 
 .site-banner,
 .site-banner .inside { padding-top: 0; }
@@ -1680,7 +1680,7 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 .links .link { -ms-flex: 1 1 100%; flex: 1 1 100%; }
 
 .link a { display: block; height: 22px; padding: 0 8px; font-size: 10px; line-height: 22px; font-weight: 500; letter-spacing: 0.05em; color: inherit; text-transform: uppercase; text-decoration: none; text-align: center; white-space: nowrap; background: #ea1e4e;}
-.link span { display: inline-block; margin-left: 4px; vertical-align: middle; letter-spacing: 0; text-transform: none; }
+.link span { display: inline-block; margin-left: 4px; vertical-align: middle; letter-spacing: 0; text-transform: none; border: 1px solid #fff; border-radius: 100%; width: 20px; height: 20px; }
 
 /*  Modifier: Link Orange */
 
@@ -1704,15 +1704,18 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 	List Links
 \* ------------------------------------------------------------ */
 
-.list-links { display: -ms-flexbox; display: flex; padding: 0; list-style-type: none; }
+.list-links { display: -ms-flexbox; display: flex; padding: 0; list-style-type: none;  }
 
 .list-links li { position: relative; -ms-flex: 0 0 50%; flex: 0 0 50%; }
 .list-links li:last-child a { padding: 2px 50px 4px 0; text-align: right; }
 .list-links li:last-child span { left: auto; right: 0; }
 .list-links li + li:before { content: ''; position: absolute; width: 1px; height: 21px; top: 50%; left: 0; margin-top: -10px; background: #048a56; }
-.list-links a { position: relative; height: auto; padding: 2px 0 4px 50px; overflow: visible; font-size: 10px; line-height: 1.1; letter-spacing: 0.15em; text-align: left; text-transform: uppercase; }
-.list-links i { position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
-.list-links span { position: absolute; width: 40px; height: 40px; top: 50%; left: 0; padding-top: 12px; margin: -20px 0 0; border: 0; border-radius: 50%; font-size: 15px; text-align: center; background: #049a60; }
+.list-links a { position: relative; height: auto; padding: 2px 0 4px 50px; overflow: visible; font-size: 10px; line-height: 1.1; letter-spacing: 0.15em; text-align: left; color: #373737; }
+.list-links i { position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); color: #373737; }
+.list-links span { position: absolute; width: 40px; height: 40px; top: 50%; left: 0; padding-top: 12px; margin: -20px 0 0; border: 0; border-radius: 50%; font-size: 15px; text-align: center; background: #EA1E4E; color: #ffffff; }
+
+
+
 
 .rub-fda .list-links span {background: #537530; }
 
@@ -1731,7 +1734,7 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 	Logo
 \* ------------------------------------------------------------ */
 
-.logo { background-image: url(images/logo-white.png); }
+.logo { background-image: url(images/logo-fdp.svg); }
 
 /* ------------------------------------------------------------ *\
 	Address
@@ -1963,9 +1966,9 @@ body.page-events i.icon-catal.icon-catal-pdf {padding-left: 15px; }
 	Header
 \* ------------------------------------------------------------ */
 
-header.site-banner .links { margin-bottom: 17px; }
+header.site-banner .links { margin-bottom: 4px; }
 header.site-banner .link a { font-size: 12px; height: 25px; line-height: 25px; padding: 2px 6px 0; }
-header.site-banner .link a span { opacity: .7; }
+header.site-banner .link a span { /*opacity: .7;*/ }
 header.site-banner .logo { width: 93px; height: 93px; margin-right: 16px; }
 header.site-banner .header-inner { padding: 0 10px 0 19px; }
 header.site-banner .date { font-size: 24px; line-height: 1; }
@@ -1980,10 +1983,17 @@ header.site-banner .sb-menu-trigger span { font-size: 12px; font-family: 'Lato',
 header.site-banner .global-search-form { bottom: 72px; right: 5px; }
 header.site-banner .global-search-form .gsf-trigger i { width: 28px; height: 28px; }
 
-header.site-banner .bar-secondary { margin-top: 24px; padding: 9px 7px 7px;  }
-header.site-banner .bar-secondary .list-links a { font-size: 12px; padding: 2px 0 4px 60px; letter-spacing: 0.15em; }
+header.site-banner .bar-secondary { margin-top: 24px; padding: 9px 7px 7px; background-color: #ffffff;}
+header.site-banner .bar-secondary .list-links a { font-size: 12px; padding: 2px 0 4px 60px; letter-spacing: 0.15em; text-transform: none!important; }
 header.site-banner .bar-secondary .list-links span { width: 45px; height: 45px; margin: -24px 0 0; font-size: 18px; font-weight: 700; }
 header.site-banner .bar-secondary .list-links li:last-child a { padding: 2px 58px 4px 0; }
+
+
+header.site-banner .bar-secondary .list-links li b { display: block; float: right; }
+
+
+
+
 
 header.site-banner .sb-menu-trigger.is-open i { width: 23px; height: 23px; }
 
@@ -2144,7 +2154,7 @@ header.site-banner .sb-menu-trigger.is-open i { width: 23px; height: 23px; }
 	Main
 \* ------------------------------------------------------------ */
 
-.wrapper .main-title-with-link { border: none; padding-top: 46px; margin-bottom: 39px; }
+.wrapper .main-title-with-link { border: none; padding-top: 20px; margin-bottom: 39px; }
 .wrapper .main-title-with-link h1 { font-size: 14px; font-weight: 300; color: #9b9b9b; }
 
 
@@ -2515,7 +2525,51 @@ body.fiche .mod-catal h1, body.product-details .edito.mod-catal h1 { margin-top:
 .rub-fda header.site-banner .date {font-size: 32px; }
 .rub-fda header.site-banner .address p {font-size: 12px; margin-top: 5px; }
 
-@media (max-width: 374px){
+@media (max-width: 374px) {
 	.rub-fda header.site-banner .logo { width: 255px; height: 102px;}
 	.rub-fda header.site-banner .date {font-size: 28px; }
 }
+
+
+
+/*Header evol*/
+
+.site-banner .header-inner { margin-bottom: 20px; padding-top: 15px!important; }
+
+.bar-sec {background: #ffffff; margin: 0; padding: 0; }
+.bar-sec a {color: #373737; display: flex; text-decoration: none; width: 100%; justify-content: center; margin: 0; padding: 0; }
+.bar-sec a span { position: relative; display: inline-block; width: 40px; height: 40px; padding-top: 5px;  background: #ea1e4e; border-radius: 50%; font-size: 19px; letter-spacing: 0; color: #ffffff; text-align: center; font-weight: 700; margin: 5px;}
+.bar-sec a strong {font-size: 16px; line-height: 1.1; text-align: right; padding: 7px 5px 0; text-transform: uppercase; font-weight: 800; color: #ea1e4e; }
+.bar-sec a b {font-weight: normal; line-height: 1; padding: 9px 0 0 10px;  }
+.bar-sec a i {display: block;  }
+
+/*.bar-sec a span {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 0;
+    padding-top: 12px;
+    margin: -20px 0 0;
+    border: 0;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    background: #049a60;
+}*/
+
+.bar-sec span sup { font-size: 10px; }
+
+header .links  { display: none; }
+
+#zone2 .partner .main-title-with-link>.main-title{ text-align: center; width: 100%; color: #373737; }
+#zone2 .partner .main-title-with-link { margin-bottom: 10px; padding-top: 50px; }
+
+#zone2 .partner .pg-item-group {display: flex; justify-content: center;  align-items: middle; }
+#zone2 .partner .pg-item-group .slider-item {max-width: 100px; padding: 5px 10px; margin:0 }
+#zone2 .partner .pg-item-group .pg-item-title {display: none; }
+#zone2 .partner .pg-item-group .pg-item-illust {align-items: center; display: flex; justify-content: center; margin: 0; }
+
+
+.edito { padding: 0 20px; }
+.edito h2 { color: #373737; border: 0; text-align: center; font-size: 15px; margin-top: 40px; }
